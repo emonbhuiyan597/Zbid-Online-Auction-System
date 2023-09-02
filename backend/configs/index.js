@@ -1,0 +1,9 @@
+const JWT_EXPIRE_TIME = { expiresIn: "30d" };
+const PAGE_LIMIT = 20;
+const COMMISION_PERCENTAGE = process.env.COMMISION_PERCENTAGE ?? 20;
+
+module.exports = {
+	JWT_EXPIRE_TIME,
+	PAGE_LIMIT,
+	COMMISION_PERCENTAGE,
+};
